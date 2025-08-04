@@ -21,3 +21,7 @@ This will not run off cloudflare workers, you will need a server for the selfbot
 - Lightweight, fast, serverless JSON API
 - Unique config per user (`/username` routes)
 - Extendable to support more users or linked storage
+
+### Bot Manager (manager.js)
+- Runs multiple scripts from a single codebase
+- Easy to scale
