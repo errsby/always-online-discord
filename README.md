@@ -10,13 +10,13 @@ This will not run off cloudflare workers, you will need a server for the selfbot
 - Update your status remotely through a hosted API
 - Manage multiple users/accounts with unique configs
 
-### Selfbot
+### Selfbot (bot.js)
 
 - Custom status control: Static or rotating text
 - Pulls all config remotely from API every 60 seconds
 - Respects DND time windows with separate status message
 
-### Cloudflare Worker API
+### Cloudflare Worker API (worker.js)
 
 - Lightweight, fast, serverless JSON API
 - Unique config per user (`/username` routes)
