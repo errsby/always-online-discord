@@ -72,7 +72,6 @@ async def rotate_statuses_loop():
                 "online": discord.Status.online,
                 "idle": discord.Status.idle,
                 "dnd": discord.Status.dnd,
-                "invisible": discord.Status.invisible,
                 "offline": discord.Status.offline,
             }
             discord_status = status_map.get(indicator, discord.Status.idle)
